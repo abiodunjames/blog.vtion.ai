@@ -1,5 +1,5 @@
 version: 0.1
-   
+
 phases:
   install:
     commands:
@@ -8,5 +8,4 @@ phases:
     commands:
       - echo "******** Building Jekyll site ********"
       - bundle exec jekyll build
-      - echo "******** Uploading to S3 ********"
-      - aws s3 sync ../jasper2-pages/ s3://blog.vtion.ai
+      - ./build.sh
