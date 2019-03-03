@@ -8,4 +8,5 @@ phases:
     commands:
       - echo "******** Building Jekyll site ********"
       - bundle exec jekyll build
+      - chmod a+x ./build.sh
       - ./build.sh
