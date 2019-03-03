@@ -9,10 +9,10 @@ baseurl: ./
 
 # Website info
 title: Ghost
-description: The professional publishing platform
+description: Official blog of vtion.ai
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
+logo: assets/images/v-logo.png
+logo_dark: assets/images/v-logo.png
 favicon: assets/images/favicon.png
 production_url: https://jekyller.github.io/jasper2/
 source_url: https://github.com/abiodunjames/blog.vtion.ai
