@@ -25,7 +25,7 @@ for filename in $DEPLOY_DIR/*.html; do
 done
 
 # Now upload to s3, deleting any items that no longer exist
-aws s3 sync --delete $DEPLOY_DIR s3://$BUCKET --exclude $DEPLOY_DIR/content/*
+aws s3 sync --delete $DEPLOY_DIR s3://$BUCKET --exclude "$DEPLOY_DIR/content/*"
 # Finally, upload the blog directory specifically to force the content-type
 aws s3 cp "$DEPLOY_DIR/content" s3://$BUCKET --recursive --content-type "text/html"
 # Cleanup
