@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/bus.jpg
+cover: assets/images/fashion-discoevry-vtion-ai.gif
 navigation: True
 title: Fashion Discovery with Vtion.ai's Visual Search
 date: 2018-11-20 10:18:00
