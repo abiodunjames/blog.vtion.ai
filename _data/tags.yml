@@ -1,16 +1,24 @@
-speeches:
-  name: speeches
-  description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
-  description: False
-  cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
 getting-started:
   name: getting-started
-  description: False
+  description: Posts and tutorials on how to get started with vTion.ai's visual search and intelligence platform.
+  cover: False
+deep-learning:
+  name: deep-learning
+  description: A series of posts on latest trends in deep learning and artificial intelligence, including indepth tutorials and customer success stories
+  cover: False
+artificial-intelligence:
+  name: artificial-intelligence
+  description: A series of posts on latest trends in deep learning and artificial intelligence, including indepth tutorials and customer success stories
+  cover: False
+visual-search:
+  name: visual-search
+  description: Posts on customer success stories with vTion.ai's visual search platform and industry trends in Visual Search technology.
+  cover: False
+aws:
+  name: aws
+  description: Posts and tutorials on our experience with Amazon Web Services. We also include architecture tutorials
+  cover: False
+amazon-web-services:
+  name: amazon-web-services
+  description: Posts and tutorials on our experience with Amazon Web Services. We also include architecture tutorials
   cover: False
