@@ -28,5 +28,14 @@ done
 aws s3 sync --delete $DEPLOY_DIR s3://$BUCKET --exclude "$DEPLOY_DIR/content/*"
 # Finally, upload the blog directory specifically to force the content-type
 aws s3 cp "$DEPLOY_DIR/content" s3://$BUCKET --recursive --content-type "text/html"
+
+cat << EOF > robots.txt
+User-agent: *
+Allow: *
+Sitemap: http://blog.vtion.ai/sitemap.xml
+EOF
+
+aws s3 cp robots.txt s3://$BUCKET
+
 # Cleanup
 rm -r $DEPLOY_DIR
