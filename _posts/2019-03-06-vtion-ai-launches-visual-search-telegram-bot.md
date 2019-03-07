@@ -11,7 +11,7 @@ subclass: 'post'
 author: vtion_ai
 ---
 
-Vtion.ai is bringing visual search for fashon closer to everyone. Starting today, we launch our visual search [Telegram Bot](https://telegram.org/blog/bot-revolution), VtionSense. You can now search products online by chatting with [VtionSense](https://t.me/VtionSenseBot) on Telegram.
+Vtion.ai is bringing visual search for fashion closer to everyone. Starting today, we launch our visual search [Telegram Bot](https://telegram.org/blog/bot-revolution), VtionSense. You can now search products online by chatting with [VtionSense](https://t.me/VtionSenseBot) on Telegram.
 
 We find that people come across fashion items they like either on Instagram, Facebook, WhatsApp statuses or while walking down the street. They want to buy these fashion items but have no clue where and how to get them. We assume this happens to you everyday or probably right now. 
 
